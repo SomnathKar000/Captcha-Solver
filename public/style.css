@@ -1,13 +1,11 @@
 .box {
-  background-color: white;
-  border-radius: 2rem;
-
   margin: 5rem;
 }
 .container {
+  background-color: white;
   width: 40%;
   height: 40%;
-  display: block;
+  border-radius: 2rem;
 }
 body {
   height: 100%;
