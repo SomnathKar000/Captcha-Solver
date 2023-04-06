@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
   res.send("ok");
 });
 
-app.get("/captcha", TextConverter);
+app.post("/captcha", TextConverter);
 
 app.listen(port, () => {
   console.log("listening on port " + port);
