@@ -1,13 +1,25 @@
 .box {
-  margin: 5rem;
+  padding: 5%;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  height: 20rem;
+  align-items: center;
+}
+button {
+  width: 5rem;
 }
 .container {
-  background-color: white;
-  width: 40%;
-  height: 40%;
-  border-radius: 2rem;
+  width: 30rem;
 }
 body {
-  height: 100%;
-  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.output {
+  /* display: none; */
 }

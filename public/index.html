@@ -12,14 +12,18 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="bg-primary">
     <div class="container">
-      <div class="mb-3 box">
-        <label for="exampleInputEmail1" class="form-label"
-          >Enter captcha url</label
-        >
-        <input type="text" name="uri" id="url" />
-        <button class="btn btn-primary">Submit</button>
+      <div class="box">
+        <h2>Captcha solver</h2>
+        <div>
+          <label for="exampleInputEmail1" class="form-label"
+            >Enter captcha url</label
+          >
+          <input type="text" name="uri" id="url" />
+        </div>
+        <div><button class="btn btn-primary" id="submit">Submit</button></div>
+        <p class="output">output :</p>
       </div>
     </div>
   </body>
@@ -28,4 +32,5 @@
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"
   ></script>
+  <script src="script.js"></script>
 </html>
