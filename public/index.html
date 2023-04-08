@@ -16,14 +16,32 @@
     <div class="container">
       <div class="box">
         <h2>Captcha solver</h2>
-        <div>
+        <div id="inputBox">
           <label for="exampleInputEmail1" class="form-label"
             >Enter captcha url</label
           >
-          <input type="text" name="uri" id="url" />
+          <input type="text" name="uri" id="url" value="" />
+          <div id="submitBtnBox" class="btnBox">
+            <button class="btn btn-primary" id="submit">Submit</button>
+          </div>
         </div>
-        <div><button class="btn btn-primary" id="submit">Submit</button></div>
-        <p class="output">output :</p>
+
+        <div id="spinnerBox">
+          <div
+            class="spinner-border"
+            style="width: 9rem; height: 9rem"
+            role="status"
+          ></div>
+          <p class="sr-only">Loading...</p>
+        </div>
+        <div id="outputBox">
+          <h5 id="outputvalue">Output :</h5>
+          <div class="btnBox">
+            <button class="btn btn-primary" id="anotherCaptcha">
+              Solve Another Captcha
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </body>
